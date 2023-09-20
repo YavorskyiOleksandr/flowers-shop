@@ -1,0 +1,37 @@
+.header {
+    background-color: rgb(249, 249, 249);
+    opacity: 0.92;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.header a:hover {
+    color:aqua;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 27px 5px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 37px;
+    background-image: linear-gradient(to right, #52e1e1, #44a0dd); 
+    background-clip: text;
+    color: transparent; 
+}
+
+.header__store-title {
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.header__cart-btn {
+    display: inline-block;
+}

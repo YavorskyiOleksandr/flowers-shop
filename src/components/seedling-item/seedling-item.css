@@ -1,0 +1,77 @@
+.seedling-item {
+    color: #efefef;
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+    width: 300px;
+    height: 320px;
+    background-color: #fcf4f4;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes colorChange {
+    0% {
+        color: rgb(90, 88, 88);
+    }
+    50% {
+        color: rgb(49, 181, 210);
+    }
+    100% {
+        color: rgb(90, 88, 88);
+    }
+}
+
+.seedling-item:hover {
+    animation: colorChange 1s ease infinite;
+    box-shadow: 1px 1.5px 5px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.seedling-item:before,
+.seedling-item:after {
+    content: '';
+    width: 98%;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fcf4f4;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+    transform: skew(2deg, 2deg) translate(3px, 8px);
+    animation: pseudoElementAnimation 0.3s ease-in-out;
+    transition: transform 0.3s ease; 
+}
+
+.seedling-item:after {
+    background: #fcf4f4;
+    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#f3f3f3), to(#f6f6f6), color-stop(.1, #fff));
+    background: -moz-linear-gradient(0 0 360deg, #f3f3f3, #fff 10%, #f6f6f6);
+    transform: skew(2deg, 2deg) translate(-1px, 2px);
+    transition: transform 0.3s ease; 
+}
+
+.seedling-item__title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.seedling-item__details {
+    padding: 10px 20px;
+}
+
+.seedling-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.seedling-item__buy {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+

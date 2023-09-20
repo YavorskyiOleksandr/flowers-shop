@@ -1,0 +1,23 @@
+.cart-menu {
+    position: absolute;
+    top: 60px;
+    left: -160px;
+    background-color: rgb(240, 211, 174);
+    width: 400px;
+    padding: 10px 20px;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.cart-menu__arrange {
+    margin-top: 7px;
+    padding: 10px 0;
+    border-top: 1px solid rebeccapurple;
+}
+
+.cart-menu__total-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+

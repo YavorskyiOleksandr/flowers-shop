@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url(../../images/garden_block.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 540px;
+    text-align: center;
+    clear: both;
+    transition: background-size 0.9s;
+}
+
+.jumbotron:hover {
+    background-size: 115%;
+}
+
+h2 {
+    color: rgb(237, 233, 229);
+    font-size: 18px;
+    padding-top: 195px;
+    padding-bottom: 37px;
+}
+
+.jumbotron__describe { 
+    -webkit-text-fill-color: #dbee2c;
+    -webkit-text-stroke: 0.55px  rgb(203, 255, 71);
+}

@@ -1,0 +1,38 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 30px auto;
+    column-gap: 30px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 40px auto;
+  }
+  
+  .goods {
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 40px;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .pagination-page_link {
+    background-color: whitesmoke;
+  }

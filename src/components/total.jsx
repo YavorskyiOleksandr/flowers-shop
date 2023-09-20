@@ -1,0 +1,1 @@
+export const calcTotalPrice = items => items.reduce((acc, seedling) => acc += seedling.price, 0);

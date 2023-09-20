@@ -1,5 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  color: #0d0e0e;
+  background-color: rgb(247, 247, 247);
+  background-color: #fcfcfc;
+  font: 400 15px/22px 'Popins', Arial, Helvetica, sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +28,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  transition: .4s;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.order-page,
+.seedling-page,
+.main_home-page {
+  flex-grow: 1;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar track {
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #79aa81, #cbd6d7);
+  background-size: contain;
+  border-radius: 55px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #87aab3, #cad1d2);
+}
+
+body::-webkit-scrollbar-button {
+  background-color: #92b1ae;
 }

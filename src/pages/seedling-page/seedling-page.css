@@ -1,0 +1,27 @@
+.seedling-page__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: rgb(9, 138, 223);
+}
+
+.seedling-page__content {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.seedling-page__left {
+    width: 63%;
+}
+
+.seedling-page__right {
+    width: 37%;
+}
+
+.seedling-page__buy-seedling {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

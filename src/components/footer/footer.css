@@ -1,0 +1,130 @@
+footer {
+    background-image: url(../../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    height: 195px;
+}
+
+.brand-cont {
+    padding: 15px 0 0 0;
+}
+
+.brand {
+    font-size: 24px;
+    color: #eef5e7;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0 13px 40px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: #FFC107;
+}
+
+.menu-link.no-highlight {
+    color: #fff;
+    font-size: 18px;
+    margin-right: -3px;
+}
+
+.menu-link.no-highlight:hover {
+    color: #FFC107;
+}
+
+.footer-nav {
+    margin-top: 14px;
+    margin-right: 3px;
+}
+
+.footer-nav__item {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.footer-nav__item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav__item a:hover {
+    color: #FFC107;
+}
+
+:root {
+    --color-red: #ee1010;
+    --color-white: #e5fef5;
+    --color-green: #40f12d;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    position: relative;
+    margin: 0 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--color);
+    box-shadow: none;
+    border: 2px solid var(--color);
+}
+
+.social-icon-linkedin:hover {
+    background: var(--color-green);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color-green),
+        0 0 25px var(--color-green),
+        0 0 50px var(--color-green),
+        0 0 200px var(--color-green);
+}
+
+.social-icon-twitter:hover {
+    background: var(--color-red);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color-red),
+        0 0 25px var(--color-red),
+        0 0 50px var(--color-red),
+        0 0 200px var(--color-red);
+}
+
+.social-icon-github:hover {
+    background: white;
+    color: #050801;
+    box-shadow: 0 0 5px white,
+        0 0 25px white,
+        0 0 50px white,
+        0 0 200px white;
+}
